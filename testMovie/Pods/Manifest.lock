@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (5.10.2)
+  - FSPagerView (0.8.3)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.10)
+  - FSPagerView
+  - SQLite.swift (~> 0.12.2)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FSPagerView
+    - SQLite.swift
+
+SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+
+PODFILE CHECKSUM: 37078a9c38b03ac3060c3bca1d63f9e8cf017ce6
+
+COCOAPODS: 1.16.2

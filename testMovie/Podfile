@@ -1,0 +1,19 @@
+platform :ios, '15'
+
+target 'testMovie' do
+  use_frameworks!
+  use_modular_headers!
+
+  pod 'Alamofire', '~> 5.10'
+  pod 'FSPagerView'
+  pod 'SQLite.swift', '~> 0.12.2'
+
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |t|
+    t.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
+    end
+  end
+end
